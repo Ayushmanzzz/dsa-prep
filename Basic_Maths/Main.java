@@ -1,5 +1,5 @@
 package Basic_Maths;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     public static void main(String args[]){
@@ -10,8 +10,19 @@ public class Main {
         // System.out.println(reverse.reverse(number));
         // System.out.println(palindrome.palindrome(number));
 
-        int n1 = 20, n2 = 15;
-        System.out.println(GCD.findGcd(n1, n2));
+        // int n1 = 20, n2 = 15;
+        // int num = 36;
+        // // divisors.divisors(num);
+
+        // List<Integer> result = divisors.divisors(num);
+
+        // for(int i: result){
+        //     System.out.print(i+" ");
+        // }
+
+
+        int num = 13;
+        System.out.print(prime.prime(num));
         sc.close();
     }
 }
