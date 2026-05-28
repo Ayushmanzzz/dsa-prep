@@ -1,3 +1,10 @@
+// Problem: Bubble Sort Algorithm
+// Platform: Striver A2Z
+// Link: http://takeuforward.org/sorting/bubble-sort-algorithm
+// Approach: Iterative
+// Time Complexity: O(n^2)
+// Space Complexity: O(1)
+
 package Sorting;
 
 public class bubbleSort {
