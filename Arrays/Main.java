@@ -22,11 +22,16 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int[] arr = inputArray();
+        // int[] arr = inputArray();
+        int arr[] = {3, 2, 4, 1, 5};
 
-        int result = LargestInArray.findLargest(arr);
-
-        System.out.println("Result: " + result);
+        // int result = LargestInArray.LargestInArray(arr);
+        // int result = SecLargestInArray.SecLargestInArray(arr);
+        // removeDuplicates.removeDuplicates(arr);
+        // System.out.println("Result: " + result);
+        for(int item:arr){
+            System.out.print(item+" ");
+        }
 
         sc.close();
     }

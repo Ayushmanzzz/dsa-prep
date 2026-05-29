@@ -8,7 +8,7 @@
 
 
 public class LargestInArray {
-    public static int findLargest(int[] arr){
+    public static int LargestInArray(int[] arr){
         int max = arr[0];
         for(int i=1; i<arr.length; i++){
             if(max < arr[i]){
