@@ -1,5 +1,3 @@
-
-
 import java.util.Scanner;
 
 public class Main {
@@ -29,6 +27,8 @@ public class Main {
         // int result = SecLargestInArray.SecLargestInArray(arr);
         // removeDuplicates.removeDuplicates(arr);
         // System.out.println("Result: " + result);
+        // rotateByK.rotateByK(arr, 2, "left");
+        zeroToEnd.zeroToEnd(arr);
         for(int item:arr){
             System.out.print(item+" ");
         }
