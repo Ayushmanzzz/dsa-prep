@@ -21,17 +21,22 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         // int[] arr = inputArray();
-        int arr[] = {3, 2, 4, 1, 5};
+        // int arr[] = {3, 2, 4, 1, 5};
+        int arr1[] = {1,3,5,7,8};
+        int arr2[] = {2,4,5,8,9};
 
         // int result = LargestInArray.LargestInArray(arr);
         // int result = SecLargestInArray.SecLargestInArray(arr);
         // removeDuplicates.removeDuplicates(arr);
         // System.out.println("Result: " + result);
         // rotateByK.rotateByK(arr, 2, "left");
-        zeroToEnd.zeroToEnd(arr);
+        // zeroToEnd.zeroToEnd(arr);
+
+        int arr[] = ArrayUnion.ArrayUnion(arr1, arr2);
         for(int item:arr){
             System.out.print(item+" ");
         }
+        // System.out.print("index: "+LinearSearch.LinearSearch(arr, 1));
 
         sc.close();
     }
