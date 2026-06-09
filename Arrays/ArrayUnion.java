@@ -3,7 +3,7 @@
 // Platform: Strivers DSA sheet
 // Link: https://takeuforward.org/data-structure/union-of-two-sorted-arrays
 // Approach: Optimal
-// Time Complexity: O(n)
+// Time Complexity: O(m+n) ~ O(n)
 // Space Complexity: O(1)
 
 import java.util.ArrayList;
