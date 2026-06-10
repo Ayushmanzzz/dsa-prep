@@ -32,11 +32,14 @@ public class Main {
         // rotateByK.rotateByK(arr, 2, "left");
         // zeroToEnd.zeroToEnd(arr);
 
-        int arr[] = ArrayUnion.ArrayUnion(arr1, arr2);
-        for(int item:arr){
-            System.out.print(item+" ");
-        }
+        // int arr[] = ArrayUnion.ArrayUnion(arr1, arr2);
+        // for(int item:arr){
+        //     System.out.print(item+" ");
+        // }
         // System.out.print("index: "+LinearSearch.LinearSearch(arr, 1));
+
+        int arr3[] = {1,1,1,0,1,1,1,1};
+        System.out.print(max1s.max1s(arr3));
 
         sc.close();
     }
