@@ -38,8 +38,14 @@ public class Main {
         // }
         // System.out.print("index: "+LinearSearch.LinearSearch(arr, 1));
 
-        int arr3[] = {1,1,1,0,1,1,1,1};
-        System.out.print(max1s.max1s(arr3));
+        int arr[] = {1,2,-3,4,6,7};
+        // System.out.print(missingNumber.missingNumber(arr));
+
+        // int arr3[] = {1,1,1,0,1,1,1,1};
+        // System.out.print(max1s.max1s(arr3));
+
+        // System.out.print(longestSubarray.longestSubarray(arr, 5));
+        System.out.print(longestSubarray2.longestSubarray2(arr));
 
         sc.close();
     }

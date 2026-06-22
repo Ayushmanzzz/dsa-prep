@@ -7,27 +7,26 @@
 // Space Complexity: O(1)
 
 public class longestSubarray {
-    public int longestSubarray(int[] nums, int k) {
-        int n = nums.length;
+    public static int longestSubarray(int[] arr, int k) {
 
+        int n = arr.length;
         int maxLen = 0;
-        int left = 0, right = 0;
-        int sum = nums[0];
+        int left=0, right=0;
+        int sum = arr[0];
 
-        while (right < n) {
-
-            while (left <= right && sum > k) {
-                sum -= nums[left];
+        while(right < n){
+            while(left <= right && sum > k){
+                sum -= arr[left];
                 left++;
             }
 
-            if (sum == k) {
-                maxLen = Math.max(maxLen, right - left + 1);
+            if(sum == k){
+                maxLen = Math.max(maxLen, right-left+1);
             }
 
             right++;
-            if (right < n) {
-                sum += nums[right];
+            if(right < n){
+                sum += arr[right];
             }
         }
         return maxLen;
