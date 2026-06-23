@@ -19,10 +19,12 @@ public class Main {
         // for(int i: result){
         //     System.out.print(i+" ");
         // }
+        int n= 780;
+        // printPrimes.printPrimes(n);
+        System.out.print(exponent.exponent(2,3));
 
-
-        int num = 13;
-        System.out.print(prime.prime(num));
+        // int num = 13;
+        // System.out.print(prime.prime(num));
         sc.close();
     }
 }

@@ -10,7 +10,7 @@ package Basic_Maths;
 
 
 public class GCD {
-    public static int findGcd(int n1, int n2) {
+    public static int GCD(int n1, int n2) {
         int gcd = 1;
 
         for (int i = 1; i <= Math.min(n1, n2); i++) {
