@@ -11,7 +11,8 @@ public class Main {
         // System.out.println(factorial.factorial(N));
         // sol.print1_N(1, N);
         // sol.printN_1(N);
-
+        int n = 16;
+        fibonacci.fibonacci(n);
         // int arr[] = {1,2,3,4,5};
         // reverseArray.reverseArray(arr, 0, arr.length-1);
         // for(int i: arr){
@@ -21,7 +22,7 @@ public class Main {
         // String s = "MADAM";
         // System.out.print(palindrome.palindrome(0, s));
 
-        int n=10;
+        // int n=10;
         System.out.print(fibonacci.fibonacci(n));
     }
 }
