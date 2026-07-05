@@ -1,3 +1,11 @@
+// Problem: Koko Eating Bananas
+// Platform: Strivers A2Z
+// Link: https://takeuforward.org/binary-search/koko-eating-bananas
+// Difficulty: Medium
+// Approach: Recursive
+// Time Complexity: O(n log n)
+// Space Complexity: O(1)
+
 package Binary_Search;
 
 import java.util.Arrays;
