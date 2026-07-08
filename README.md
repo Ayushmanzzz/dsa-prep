@@ -71,20 +71,16 @@ Each folder contains problem-wise implementations with:
 // Time Complexity: 
 // Space Complexity:
 
-public class Solution {
-    public static void main(String[] args) {
-        // test cases
-    }
-}
+
 ```
 
 ## Progress Tracker
 
 | Topic               | Problems Solved |
 | ------------------- | --------------- |
-| Arrays              | 0               |
-| Strings             | 0               |
-| Linked List         | 0               |
+| Arrays              | 14               |
+| Strings             | 7               |
+| Linked List         | 6               |
 | Stack & Queue       | 0               |
 | Trees               | 0               |
 | Graphs              | 0               |
